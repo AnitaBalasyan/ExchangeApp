@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #0E6BA8;
+}
+
+.header-container {
+  background-color: #094277;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header-button:hover {
+  background-color: white;
+}
+
+.header-img img {
+  height: 60px;
+  padding: 3px, 2px;
+}
+
+.input-btn {
+  height: 315px;
+  width: 321px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.send {
+  padding: 15px 5px;
+}
+
+.send span {
+  color:black;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 37px;
+}
+
+.send input {
+  height: 27px;
+  width: 225px;
+  border-radius: 7px;
+  border: 1px solid gray;
+  background-color: #f4f4f4;
+}
+
+.MuiButton-root.MuiButton-contained {
+  display: flex;
+  margin: auto;
+  margin-top: 15px;
+  background-color: #3ED37F;
+}
+
+.language-option img,
+.language-select img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.language-select.language-select {
+  color: #fff;
+}
+
+.language-select fieldset {
+  border: none;
+}
+
+.search {
+  margin-top: 10px;
+  text-align: center;
+  color: darkblue;
+  width: 100px;
+}
+
+.MuiFormControl-root {
+  background-color: #f4f4f4;
+}
